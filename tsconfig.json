@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "system",
+    "lib": ["ES2016", "dom" ],
+    "noImplicitAny": true,
+    "target": "ES6",
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "outFile": "../../built/local/tsc.js",
+    "sourceMap": true
+  },
+  "include": ["exercises/**/*","studio/**/*" ],
+}
