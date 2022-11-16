@@ -1,6 +1,11 @@
 // TODO: 
 // * Code the Astronaut, Cargo, and Rocket classes in new files.
+
 // * Import the three classes into this file.
+import { Astronaut } from "./Astronaut.js";
+import { Cargo } from "./Cargo.js";
+import { Rocket } from "./Rocket.js";
+
 
 
 let falcon9: Rocket = new Rocket('Falcon 9', 7500);
